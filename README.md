@@ -6,7 +6,7 @@ Start with the [project checklist](critique/CHECKLIST.md) or [detailed plan](cri
 
 - **Personal completion target:** Thursday, 1 October 2026, 11 pm Sydney time (AEST).
 - **Submission deadline:** Friday, 9 October 2026, 11:59 pm Sydney time (AEDT).
-- [Assessment instructions](critique/assessment/essay_instructions.md) and [rubric](critique/assessment/1003 Critique Rubric.pdf) are in `critique/assessment/`.
+- [Assessment instructions](critique/assessment/essay_instructions.md) and [rubric](critique/assessment/1003-critique-rubric.pdf) are in `critique/assessment/`.
 - Video transcripts are in `critique/transcripts/`.
 - The [research reading guide](critique/research/README.md) describes the completed source review. The selected shortlist and evidence table are `critique/research/reviewed_shortlist.md` and `critique/research/evidence_table.md`.
 - The Markdown essay draft belongs at `critique/draft/essay_draft.md`; it has not yet been created.

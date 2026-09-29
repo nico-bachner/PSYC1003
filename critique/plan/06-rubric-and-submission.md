@@ -2,7 +2,7 @@
 
 [Plan index](README.md)
 
-The [critique rubric](../assessment/1003 Critique Rubric.pdf) allocates:
+The [critique rubric](../assessment/1003-critique-rubric.pdf) allocates:
 
 | Criterion | Weight |
 |---|---:|
