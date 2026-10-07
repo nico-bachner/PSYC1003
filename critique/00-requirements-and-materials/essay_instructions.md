@@ -53,3 +53,15 @@ Provide a brief summary of the main points of your essay.
 - Do not include an abstract or appendices in your essay.
 - Please use Arial or Times New Roman font size 12 and double-spacing.
 - Referencing (both in-text citations and the reference list) should be completed using APA style (as per the APA manual’s 7th edition; see: [APA Formatting](https://www.library.sydney.edu.au/support/referencing/apa)).
+
+
+---
+
+## Appendix: confirmed deadline and upload formats
+
+The following details are user-confirmed supplements to the supplied instructions above.
+
+- **Deadline:** midnight AEST (UTC+10) at the end of Friday, 9 October 2026 — 00:00 Saturday, 10 October 2026.
+- **Accepted upload formats:** PDF and DOCX.
+
+The supplied instructions state 11:59 pm AEST on Friday of Week 9; the deadline above records the user's clarification. This appendix belongs to the project instructions, not the submitted essay.
