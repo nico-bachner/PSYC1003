@@ -19,7 +19,8 @@ critique/
 │   └── sources/                       # Six scientific PDFs
 ├── 03-draft/
 │   ├── essay_draft_v1.md
-│   └── essay_draft_v2.md
+│   ├── essay_draft_v2.md
+│   └── essay_draft_v3.md
 └── 04-submission/                     # Final essay and receipt
 ```
 
@@ -58,7 +59,7 @@ Research selection and the identified correction check are complete.
 
 ### 03. Draft
 
-Current draft: [essay_draft_v2.md](03-draft/essay_draft_v2.md) — 960 body words, including citations; references and cover details excluded. Written afresh from the requirements, transcript and six compiled sources. Submission formatting remains pending.
+Current draft: [essay_draft_v3.md](03-draft/essay_draft_v3.md) — 918 words, including headings and citations; reference list and cover details excluded. Follows the instructions directly: Introduction; Body with Affirmative, Negative and Critical Analysis subsections; Conclusion; Reference List. Retains the six compiled sources. Submission formatting remains pending.
 
 - [x] Write a fresh essay from the requirements and current evidence record, using the plan as optional guidance.
 - [x] Check study methods/results, causal qualifications and fair treatment of the speaker.
