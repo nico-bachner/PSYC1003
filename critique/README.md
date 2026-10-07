@@ -46,7 +46,7 @@ Follow [the essay plan](01-plan/essay_plan.md). The protected [provided material
 
 - [x] Select Video 1 and define its usual-cause claim.
 - [x] Develop a proposed thesis and paragraph outline using affirmative evidence, qualifications and audience context.
-- [ ] Review the proposed thesis and outline with the user.
+- [x] Review the proposed thesis and outline with the user and incorporate the agreed revisions.
 
 ### 02. Research
 
