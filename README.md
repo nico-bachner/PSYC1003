@@ -13,7 +13,7 @@ PSYC1003/
 │   ├── 02-research/
 │   │   ├── evidence_table.md          # Six-source evidence record
 │   │   └── sources/                   # Scientific PDFs
-│   ├── 03-draft/                      # Essay — TO BE REGENERATED
+│   ├── 03-draft/                      # Essay drafts; v2 current
 │   └── 04-submission/                 # Final essay and receipt, when ready
 └── course/                            # Weekly course materials
 ```

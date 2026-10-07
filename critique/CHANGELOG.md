@@ -4,6 +4,9 @@ User intent records the desired outcome; agent implementation records the approa
 
 ## 2026-10-07
 
+- **User intent:** Rewrite the essay from scratch as `essay_draft_v2`, using the requirements, materials and compiled sources; treat the plan as a suggestion.<br>
+  **Agent implementation:** Created `03-draft/essay_draft_v2.md` as a continuous 960-word essay with six APA-style references. Checked the argument against the transcript, rubric, source findings and evidence record; preserved v1. Updated draft checks and project navigation. Cover details, final document formatting and user review remain pending.
+
 - **User intent:** Update the thesis and outline following review.<br>
   **Agent implementation:** Strengthened the affirmative case in the thesis, distinguished insufficient evidence from counterevidence, added an explicit on-balance audience judgement, and redistributed the 920-word outline to give retrieval suppression and critical synthesis more space. Marked the plan review complete; essay regeneration remains pending.
 - **User intent:** Clear workflow ordering; retain the critique wrapper and consistent sorting.<br>

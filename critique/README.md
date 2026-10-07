@@ -9,33 +9,31 @@ critique/
 ├── README.md
 ├── CHANGELOG.md
 ├── 00-requirements-and-materials/
-│   ├── essay_instructions.md
-│   ├── 1003-critique-rubric.pdf
-│   └── transcripts/
-│       ├── video_1_transcript.txt
-│       ├── video_2_transcript.txt
-│       └── video_3_transcript.txt
+│   ├── instructions.md
+│   ├── rubric.pdf
+│   └── transcript.txt
 ├── 01-plan/
 │   └── essay_plan.md
 ├── 02-research/
 │   ├── evidence_table.md
 │   └── sources/                       # Six scientific PDFs
 ├── 03-draft/
-│   └── essay_draft.md
+│   ├── essay_draft_v1.md
+│   └── essay_draft_v2.md
 └── 04-submission/                     # Final essay and receipt
 ```
 
-The [supplied instructions](00-requirements-and-materials/essay_instructions.md), rubric and transcripts establish what the assessment asks and what the speaker says. The instructions appendix records the confirmed deadline and upload formats. The scientific PDFs support the [evidence record](02-research/evidence_table.md), which explains each study's findings and limits. Additional lecture materials and course readings are available in [the course folder](../course/).
+The [supplied instructions](00-requirements-and-materials/instructions.md), rubric and transcripts establish what the assessment asks and what the speaker says. The instructions appendix records the confirmed deadline and upload formats. The scientific PDFs support the [evidence record](02-research/evidence_table.md), which explains each study's findings and limits. Additional lecture materials and course readings are available in [the course folder](../course/).
 
 Keep planning and verification notes outside the draft and submission folders, which hold essay outputs and the receipt. Record project changes in [the changelog](CHANGELOG.md).
 
 ## Checklist
 
-Follow [the essay plan](01-plan/essay_plan.md). The protected [provided materials](00-requirements-and-materials/) and [scientific PDFs](02-research/sources/) take precedence over derived notes.
+Use [the essay plan](01-plan/essay_plan.md) as optional guidance. The protected [provided materials](00-requirements-and-materials/) and [scientific PDFs](02-research/sources/) take precedence over derived notes.
 
 ### 00. Requirements and materials
 
-[00-requirements-and-materials/](00-requirements-and-materials/essay_instructions.md)
+[00-requirements-and-materials/](00-requirements-and-materials/instructions.md)
 
 - [x] Review the instructions, rubric and Video 1 transcript in `00-requirements-and-materials/`.
 - [x] Review the essay instructions and their appendix for word count, structure, formatting, deadline and upload formats.
@@ -60,13 +58,13 @@ Research selection and the identified correction check are complete.
 
 ### 03. Draft
 
-[03-draft/](03-draft/) — **TO BE REGENERATED**.
+Current draft: [essay_draft_v2.md](03-draft/essay_draft_v2.md) — 960 body words, including citations; references and cover details excluded. Written afresh from the requirements, transcript and six compiled sources. Submission formatting remains pending.
 
-- [ ] Regenerate the essay from the current evidence record and plan.
-- [ ] Check study methods/results, causal qualifications and fair treatment of the speaker.
-- [ ] Evaluate both sides and give an explicit, proportionate audience judgement.
-- [ ] Check APA 7 metadata and citation–reference matching.
-- [ ] Confirm 750–1,000 words, including citations and subheadings.
+- [x] Write a fresh essay from the requirements and current evidence record, using the plan as optional guidance.
+- [x] Check study methods/results, causal qualifications and fair treatment of the speaker.
+- [x] Evaluate both sides and give an explicit, proportionate audience judgement.
+- [x] Check APA 7 metadata and citation–reference matching.
+- [x] Confirm 750–1,000 words, including citations and subheadings.
 - [ ] Complete user review of the prose.
 
 ### 04. Submission
