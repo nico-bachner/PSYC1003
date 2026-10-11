@@ -21,7 +21,7 @@ The [materials](materials/) and [sources](sources/) are not to be modified. Addi
 
 - [x] Choose one of the three videos
 - [x] Gather sources
-- [ ] Create an evidence table based on the sources
+- [x] Create an [evidence table](evidence-table.md) based on the sources
 - [ ] List of possible arguments
 - [ ] 1st markdown draft
 - [ ] Final markdown draft
