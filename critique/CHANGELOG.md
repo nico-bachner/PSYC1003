@@ -18,8 +18,26 @@ I want to achieve y.
 **Agent** (Claude Opus 5.5)
 Achieved y by doing z.
 
+Agents must provide the user prompt alongside their implementation log.
+
 ## 2026-10-11
 
-**User**: Consolidated and simplified the workspace. Rewrote readme and changelog.
+**User**
+Created essay draft.
 
-**Agent (Codex)**: Created `evidence-table.md` covering all seven source PDFs, with methods, key findings, page locators, essay relevance, and limitations. Applied the Williams (1995) correction and distinguished observed findings from mechanistic and causal claims. Marked the evidence-table checklist item complete; source PDFs and supplied materials were unchanged.
+## 2026-10-10
+
+**User**
+Chose Video 1.
+
+**User**
+Created the workspace.
+
+**User**
+Added the instructions and the rubric.
+
+**User**
+Transcribed Video 1.
+
+**User**
+Did some research and found 6 sources that seemed useful.
