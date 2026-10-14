@@ -1,6 +1,7 @@
 # Changelog
 
 Historical record of project changes for humans and agents. Enables more informed decisions by recording
+
 - what was previously tried
 - why it was tried
 - what went according to plan, and
@@ -26,7 +27,7 @@ Agents must provide the user prompt alongside their implementation log.
 Scaffolded the workspace.
 
 **User**
-Added the instructions and the rubric. 
+Added the instructions and the rubric.
 
 **User**
 Transcribed the three videos.
@@ -58,3 +59,6 @@ Proofread the evidence list.
 
 **User**
 Wrote the essay draft.
+
+**User**
+Finalised the draft.

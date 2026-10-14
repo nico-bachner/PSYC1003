@@ -7,8 +7,8 @@ critique/
 ├── README.md              # This file
 ├── CHANGELOG.md           # Records project changes – especially useful for agents
 ├── essay/
-│   ├── draft.md           # WIP draft
-│   └── evidence.md        # WIP evidence table
+│   ├── essay.md           # Essay
+│   └── evidence.md        # Evidence table
 ├── materials/
 │   ├── instructions.md    # Teacher-provided instructions, with an appendix adding omitted information
 │   ├── rubric.pdf         # Teacher-provided marking rubric
@@ -23,8 +23,6 @@ The [materials](materials/) and [sources](sources/) are not to be modified. Addi
 - [x] Choose one of the three videos
 - [x] Gather sources
 - [x] Compile an evidence list using the source PDFs
-- [x] Formulate thesis
-- [x] 1st markdown draft
-- [x] Final markdown draft
-- [ ] Convert to LaTeX and compile
+- [x] Final essay
+- [x] Convert to LaTeX and compile
 - [ ] Final review

@@ -11,7 +11,7 @@ Summary of the source PDFs for use in essay preparation.
 
 ## 1. Williams (1994): later reports of documented childhood abuse
 
-**Article:** Linda Meyer Williams, *Recall of childhood trauma: A prospective study of women's memories of child sexual abuse*. Journal of Consulting and Clinical Psychology, 62(6), 1167–1176.
+**Article:** Linda Meyer Williams, _Recall of childhood trauma: A prospective study of women's memories of child sexual abuse_. Journal of Consulting and Clinical Psychology, 62(6), 1167–1176.
 
 **Source:** [Article PDF, including its correction](../sources/Williams-1994.pdf). See pp. 1169–1174; the correction is on PDF page 11.
 
@@ -34,13 +34,13 @@ The study supports the narrower point that a documented traumatic event may be a
 
 Only part of the original group was interviewed, and the sample consisted mainly of African American women from a poor urban community whose abuse had reached hospital services. The results may not generalise to all survivors. The study also did not test the accuracy of later recovered memories or the effectiveness of therapy.
 
-**Correction to preserve:** The appended correction reverses a sentence on p. 1172: greater force showed a *tendency towards recall*, not non-recall. The reported comparison was not conventionally statistically significant (p = .059), so it should not be presented as firm evidence that force improves recall.
+**Correction to preserve:** The appended correction reverses a sentence on p. 1172: greater force showed a _tendency towards recall_, not non-recall. The reported comparison was not conventionally statistically significant (p = .059), so it should not be presented as firm evidence that force improves recall.
 
 **Possible essay use:** Evidence that non-reporting of documented trauma occurs, paired with the caution that non-reporting does not establish protective repression.
 
 ## 2. Geraerts et al. (2007): independent support for recovered memories
 
-**Article:** Elke Geraerts and colleagues, *The reality of recovered memories: Corroborating continuous and discontinuous memories of childhood sexual abuse*. Psychological Science, 18(7), 564–567.
+**Article:** Elke Geraerts and colleagues, _The reality of recovered memories: Corroborating continuous and discontinuous memories of childhood sexual abuse_. Psychological Science, 18(7), 564–567.
 
 **Source:** [Article PDF](../sources/Geraerts-2007.pdf), especially pp. 565–567.
 
@@ -68,7 +68,7 @@ Even when an event is corroborated, this does not show that the memory was previ
 
 ## 3. Geraerts et al. (2009): different explanations for memory recovery
 
-**Article:** Elke Geraerts and colleagues, *Cognitive mechanisms underlying recovered-memory experiences of childhood sexual abuse*. Psychological Science, 20(1), 92–98.
+**Article:** Elke Geraerts and colleagues, _Cognitive mechanisms underlying recovered-memory experiences of childhood sexual abuse_. Psychological Science, 20(1), 92–98.
 
 **Source:** [Article PDF](../sources/Geraerts-2009.pdf), especially pp. 93–97 and Tables 1–2.
 
@@ -96,7 +96,7 @@ These were laboratory word tasks, not tests of the truth of participants' abuse 
 
 ## 4. Catarino et al. (2015): difficulty suppressing memories in PTSD
 
-**Article:** Ana Catarino and colleagues, *Failing to forget: Inhibitory-control deficits compromise memory suppression in posttraumatic stress disorder*. Psychological Science. DOI: 10.1177/0956797615569889.
+**Article:** Ana Catarino and colleagues, _Failing to forget: Inhibitory-control deficits compromise memory suppression in posttraumatic stress disorder_. Psychological Science. DOI: 10.1177/0956797615569889.
 
 **Source:** [Article PDF](../sources/Catarino-2015.pdf), especially PDF pp. 2–6 and 9–10. This copy uses advance-publication pagination.
 
@@ -123,7 +123,7 @@ The sample was small, and participants suppressed pictures learned in a laborato
 
 ## 5. Hulbert and Anderson (2018): trauma history and deliberate memory control
 
-**Article:** Justin C. Hulbert and Michael C. Anderson, *What doesn't kill you makes you stronger: Psychological trauma and its relationship to enhanced memory control*. Journal of Experimental Psychology: General. DOI: 10.1037/xge0000461.
+**Article:** Justin C. Hulbert and Michael C. Anderson, _What doesn't kill you makes you stronger: Psychological trauma and its relationship to enhanced memory control_. Journal of Experimental Psychology: General. DOI: 10.1037/xge0000461.
 
 **Source:** [Article PDF](../sources/Hulbert-Anderson-2018.pdf), especially PDF pp. 3, 7–8 and 10–17. This copy uses advance-publication pagination.
 
@@ -152,7 +152,7 @@ The tasks involved recently learned words, not forgotten traumatic events. They 
 
 ## 6. Anderson et al. (2025): public beliefs about repression
 
-**Article:** Kris-Ann S. Anderson, Quincy C. Miller, Deryn Strange, and Kamala London, *Repressed memories and the body keeps the score: Public perceptions and prevalence*. Memory, 33(5), 495–509. DOI: 10.1080/09658211.2025.2479503.
+**Article:** Kris-Ann S. Anderson, Quincy C. Miller, Deryn Strange, and Kamala London, _Repressed memories and the body keeps the score: Public perceptions and prevalence_. Memory, 33(5), 495–509. DOI: 10.1080/09658211.2025.2479503.
 
 **Source:** [Article PDF](../sources/Anderson-et-al-2025.pdf), especially pp. 497–505 and Table 2. This paper's first author is different from Michael C. Anderson in the preceding studies.
 
@@ -180,13 +180,13 @@ This survey cannot establish whether repression occurs, whether any particular m
 
 ## Evidence map for the next checklist steps
 
-| Question | Most relevant sources | What the evidence allows us to say |
-|---|---|---|
-| Can documented trauma be absent from a later account? | Williams (1994) | Yes, but non-reporting does not identify its cause. |
-| Can apparently recovered memories concern real events? | Geraerts et al. (2007) | Some have corroboration; this does not establish prior repression or verify every detail. |
-| Are there other explanations for a recovery experience? | Geraerts et al. (2009); Anderson et al. (2025) | Forgetting earlier remembering, reinterpretation, and memory errors are relevant alternatives. |
-| Can deliberate suppression reduce later recall? | Catarino et al. (2015); Hulbert & Anderson (2018) | Yes, under some laboratory conditions, with substantial differences between groups. |
-| Does trauma usually cause automatic protective blocking? | Consider the six studies together | These studies do not establish that mechanism or show it is the usual explanation. |
-| Does the video's treatment approach improve symptoms with or without memory recovery? | Not directly tested by these six sources | Treatment-outcome research would be needed to evaluate this separate claim. |
+| Question                                                                              | Most relevant sources                             | What the evidence allows us to say                                                             |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Can documented trauma be absent from a later account?                                 | Williams (1994)                                   | Yes, but non-reporting does not identify its cause.                                            |
+| Can apparently recovered memories concern real events?                                | Geraerts et al. (2007)                            | Some have corroboration; this does not establish prior repression or verify every detail.      |
+| Are there other explanations for a recovery experience?                               | Geraerts et al. (2009); Anderson et al. (2025)    | Forgetting earlier remembering, reinterpretation, and memory errors are relevant alternatives. |
+| Can deliberate suppression reduce later recall?                                       | Catarino et al. (2015); Hulbert & Anderson (2018) | Yes, under some laboratory conditions, with substantial differences between groups.            |
+| Does trauma usually cause automatic protective blocking?                              | Consider the six studies together                 | These studies do not establish that mechanism or show it is the usual explanation.             |
+| Does the video's treatment approach improve symptoms with or without memory recovery? | Not directly tested by these six sources          | Treatment-outcome research would be needed to evaluate this separate claim.                    |
 
 The two suppression papers study different populations and need not contradict each other: one compares adults with and without PTSD, while the other compares university students by reported trauma history. Neither measures the automatic loss of access to a personal traumatic memory. Likewise, public belief in repression is evidence about beliefs, not evidence that repression explains memory gaps.

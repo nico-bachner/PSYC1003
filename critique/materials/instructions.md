@@ -37,7 +37,7 @@ Provide a brief summary of the main points of your essay.
 ## Things to consider
 
 - This is an assessment with a fair amount of flexibility. There are multiple arguments that you can make for each video, and you may choose to argue either side. Your mark will NOT be impacted by whether or not you agree with the speaker.
-- The "Critical Analysis" component of the essay gives you a chance to provide your thoughts on questions like: *How effectively or accurately did the speaker interpret the scientific evidence? Is the science being distorted or misrepresented to fit an agenda? What harm/benefit, if any, might come from this type of messaging?* HOWEVER, keep in mind that the writing style should be professional and scientific. Avoid using phrases like "I think..." or "I feel...". Make sure your argument is objective and evidence based.
+- The "Critical Analysis" component of the essay gives you a chance to provide your thoughts on questions like: _How effectively or accurately did the speaker interpret the scientific evidence? Is the science being distorted or misrepresented to fit an agenda? What harm/benefit, if any, might come from this type of messaging?_ HOWEVER, keep in mind that the writing style should be professional and scientific. Avoid using phrases like "I think..." or "I feel...". Make sure your argument is objective and evidence based.
 - You need to select appropriate literature to cite in the body of your essay (i.e., websites, blogs, etc. are **not** considered appropriate sources; published scientific literature is appropriate). You should use empirical evidence (e.g., published journal articles) to support your evaluation of the speaker's claims. The number of citations needed will depend on your argument, but an essay of this length can be effectively constructed using ~5-10 references.
 - You may address the same research in your "affirmative" and "negative" sections, if you choose. For instance, one study may partially support the speaker's claim (affirmative), but perhaps certain details of the research weaken the strength of their argument (negative). Alternatively, you may address separate studies in each section.
 
@@ -53,7 +53,6 @@ Provide a brief summary of the main points of your essay.
 - Do not include an abstract or appendices in your essay.
 - Please use Arial or Times New Roman font size 12 and double-spacing.
 - Referencing (both in-text citations and the reference list) should be completed using APA style (as per the APA manual’s 7th edition; see: [APA Formatting](https://www.library.sydney.edu.au/support/referencing/apa)).
-
 
 ---
 

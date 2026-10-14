@@ -1,4 +1,9 @@
-# Draft
+---
+title: 'PSYC1003 Misinformation Critique'
+author: |-
+  SID: 510678421
+  Video 1
+---
 
 ## Introduction
 
@@ -25,3 +30,17 @@ There are, however, some redeeming elements of the video. The person states that
 ## Conclusion
 
 The findings generally contradict the claims made by the person in the video. The person seems motivated by a desire for internet popularity instead of a desire to educate, and are generally unhelpful and even potentially harmful.
+
+## References
+
+Anderson, K.-A. S., Miller, Q. C., Strange, D., & London, K. (2025). Repressed memories and the body keeps the score: Public perceptions and prevalence. _Memory, 33_(5), 495–509. [https://doi.org/10.1080/09658211.2025.2479503](https://doi.org/10.1080/09658211.2025.2479503)
+
+Catarino, A., Küpper, C. S., Werner-Seidler, A., Dalgleish, T., & Anderson, M. C. (2015). Failing to forget: Inhibitory-control deficits compromise memory suppression in posttraumatic stress disorder. _Psychological Science, 26_(5), 604–616. [https://doi.org/10.1177/0956797615569889](https://doi.org/10.1177/0956797615569889)
+
+Geraerts, E., Lindsay, D. S., Merckelbach, H., Jelicic, M., Raymaekers, L., Arnold, M. M., & Schooler, J. W. (2009). Cognitive mechanisms underlying recovered-memory experiences of childhood sexual abuse. _Psychological Science, 20_(1), 92–98. [https://doi.org/10.1111/j.1467-9280.2008.02247.x](https://doi.org/10.1111/j.1467-9280.2008.02247.x)
+
+Geraerts, E., Schooler, J. W., Merckelbach, H., Jelicic, M., Hauer, B. J. A., & Ambadar, Z. (2007). The reality of recovered memories: Corroborating continuous and discontinuous memories of childhood sexual abuse. _Psychological Science, 18_(7), 564–568. [https://doi.org/10.1111/j.1467-9280.2007.01940.x](https://doi.org/10.1111/j.1467-9280.2007.01940.x)
+
+Hulbert, J. C., & Anderson, M. C. (2018). What doesn’t kill you makes you stronger: Psychological trauma and its relationship to enhanced memory control. _Journal of Experimental Psychology: General, 147_(12), 1931–1949. [https://doi.org/10.1037/xge0000461](https://doi.org/10.1037/xge0000461)
+
+Williams, L. M. (1994). Recall of childhood trauma: A prospective study of women’s memories of child sexual abuse. _Journal of Consulting and Clinical Psychology, 62_(6), 1167–1176. [https://doi.org/10.1037/0022-006X.62.6.1167](https://doi.org/10.1037/0022-006X.62.6.1167)

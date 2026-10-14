@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun scripts/build.ts",
+    "check": "bun check",
+    "fmt": "oxfmt",
+    "lint": "oxlint",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "oxfmt": "^0.73.0",
+    "oxlint": "^1.88.0"
+  },
+  "engines": {
+    "bun": ">=1.4.3"
+  },
+  "packageManager": "bun@1.4.3"
+}
