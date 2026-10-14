@@ -23,10 +23,10 @@ The [materials](materials/) and [sources](sources/) are not to be modified. Addi
 
 - [x] Choose one of the three videos
 - [x] Gather sources
-- [ ] Compile an evidence list using the source PDFs
-- [ ] Formulate thesis
-- [ ] List of arguments for and against
-- [ ] 1st markdown draft
-- [ ] Final markdown draft
+- [x] Compile an evidence list using the source PDFs
+- [x] Formulate thesis
+- [x] List of arguments for and against
+- [x] 1st markdown draft
+- [x] Final markdown draft
 - [ ] Convert to LaTeX and compile
 - [ ] Final review
