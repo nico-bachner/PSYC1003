@@ -7,7 +7,6 @@ critique/
 ├── README.md              # This file
 ├── CHANGELOG.md           # Records project changes – especially useful for agents
 ├── essay/
-│   ├── arguments.md       # WIP arguments list
 │   ├── draft.md           # WIP draft
 │   └── evidence.md        # WIP evidence table
 ├── materials/
@@ -25,7 +24,6 @@ The [materials](materials/) and [sources](sources/) are not to be modified. Addi
 - [x] Gather sources
 - [x] Compile an evidence list using the source PDFs
 - [x] Formulate thesis
-- [x] List of arguments for and against
 - [x] 1st markdown draft
 - [x] Final markdown draft
 - [ ] Convert to LaTeX and compile
