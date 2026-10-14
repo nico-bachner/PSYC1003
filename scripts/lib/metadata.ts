@@ -11,12 +11,18 @@ const metadataKey = z
   .refine((key) => key !== 'body', 'body is reserved for the rendered essay')
 
 const metadataSchema = z
-  .record(metadataKey, z.union([z.string(), z.number()]).transform(String))
+  .record(
+    metadataKey,
+    z.union([z.string(), z.number(), z.literal(false)]).transform((value) => {
+      if (value === false) return value
+      return String(value)
+    }),
+  )
   .pipe(
     z
       .object({
         author: z.string().default(''),
-        date: z.string().optional(),
+        date: z.union([z.string(), z.literal(false)]).optional(),
         title: metadataValue.default('Untitled essay'),
       })
       .catchall(metadataValue),

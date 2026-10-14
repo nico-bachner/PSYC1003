@@ -1,5 +1,7 @@
 import * as Bun from 'bun'
 import { escapeTex } from './tex'
+import { fillTemplate } from './template'
+import { parseEssay } from './metadata'
 
 const renderLink = (label: string, url: string): string => {
   const isWebUrl = /^https?:\/\//u.test(url)
@@ -22,14 +24,6 @@ const rejectMarkdown = (feature: string): never => {
   throw new Error(`Unsupported Markdown: ${feature}`)
 }
 
-// Internal markers let Markdown rendering stay independent of section context.
-const ordinarySection = '\0section\0'
-const paragraphStart = '\0paragraph\0'
-const referenceSection = '\0references\0'
-const hangingIndent = String.raw`\noindent\hangindent=0.5in\hangafter=1 `
-
-type SectionState = Readonly<{ inReferences: boolean; latex: string }>
-
 const renderHeading = (content: string, level: number): string => {
   const headingCommands: Readonly<Record<number, string>> = {
     2: 'section',
@@ -42,52 +36,12 @@ const renderHeading = (content: string, level: number): string => {
     throw new Error('Use ## through #### headings; put the title in frontmatter.')
   }
 
-  const heading = `\\${command}*{${content}}\n\n`
-  if (content.toLowerCase() === 'references') {
-    return `${referenceSection}\\newpage\n\n${heading}`
-  }
-  return `${ordinarySection}${heading}`
+  return `\\${command}*{${content}}\n\n`
 }
 
-const appendPart = (state: SectionState, part: string): SectionState => {
-  if (part === referenceSection) {
-    return { inReferences: true, latex: state.latex }
-  }
-  if (part === ordinarySection) {
-    return { inReferences: false, latex: state.latex }
-  }
-  if (part === paragraphStart) {
-    if (state.inReferences) {
-      return { inReferences: state.inReferences, latex: state.latex + hangingIndent }
-    }
-    return state
-  }
-  return { inReferences: state.inReferences, latex: state.latex + part }
-}
-
-// Recursively fold the section markers into immutable state.
-const formatParts = (parts: readonly string[], state: SectionState): string => {
-  if (parts.length === 0) {
-    return state.latex
-  }
-  const [part, ...remaining] = parts
-  return formatParts(remaining, appendPart(state, part))
-}
-
-const applySectionFormatting = (rendered: string): string =>
-  formatParts(rendered.split(/(?<marker>\0(?:references|section|paragraph)\0)/u), {
-    inReferences: false,
-    latex: '',
-  })
-
-export const renderMarkdown = (markdown: string): string => {
-  // Reserve NUL for internal markers so essay text cannot impersonate them.
-  if (markdown.includes('\0')) {
-    throw new Error('Markdown must not contain NUL characters.')
-  }
-
+const renderMarkdown = (markdown: string): string => {
   // Escape only plain text; parent callbacks receive already-rendered LaTeX.
-  const rendered = Bun.markdown.render(markdown, {
+  return Bun.markdown.render(markdown, {
     blockquote: (content) => wrapEnvironment('quote', content),
     code: () => rejectMarkdown('code blocks'),
     codespan: (content) => `\\texttt{${escapeTex(content)}}`,
@@ -112,12 +66,34 @@ export const renderMarkdown = (markdown: string): string => {
       }
       return `\\item ${content}\n`
     },
-    paragraph: (content) => `${paragraphStart}${content}\\par\n\n`,
+    paragraph: (content) => `${content}\\par\n\n`,
     strikethrough: () => rejectMarkdown('strikethrough'),
     strong: (content) => `\\textbf{${content}}`,
     table: () => rejectMarkdown('tables'),
     text: escapeTex,
   })
+}
 
-  return applySectionFormatting(rendered)
+const countWords = (markdown: string): number => {
+  const renderedText = Bun.markdown.render(markdown, {
+    code: () => '',
+    heading: (content) => `${content}\n`,
+    image: () => '',
+    listItem: (content) => `${content}\n`,
+    paragraph: (content) => `${content}\n`,
+  })
+  return renderedText.split(/\s+/u).filter((word) => /[\p{L}\p{N}]/u.test(word)).length
+}
+
+export type Document = Readonly<{
+  latex: string
+  wordCount: number
+}>
+
+export const prepareDocument = (source: string, template: string): Document => {
+  const { metadata, markdown } = parseEssay(source)
+  return {
+    latex: fillTemplate(template, metadata, renderMarkdown(markdown)),
+    wordCount: countWords(markdown),
+  }
 }

@@ -6,11 +6,9 @@ Course materials and coursework.
 PSYC1003/
 ├── critique/    # Research essay
 ├── course/      # Weekly materials
-├── scripts/     # Shared essay builder and LaTeX template
+├── scripts/     # Shared essay tools and LaTeX template
 └── generated/   # Build output (gitignored)
 ```
-
-## Build
 
 Requires Bun 1.4.3+, Tectonic, and Times New Roman.
 
@@ -19,4 +17,4 @@ bun install
 bun run build critique
 ```
 
-The builder accepts an assignment folder or an essay folder, looking for `essay.md` directly or under `essay/`. This writes `generated/critique/essay/essay.pdf`.
+Build results report an approximate word count of all Markdown content, including references, headings, and citations; cover metadata is excluded. References use ordinary section formatting.

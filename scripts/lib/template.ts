@@ -1,17 +1,24 @@
 import type { Metadata } from './metadata'
 import { escapeTex } from './tex'
 
+const renderMetadataValue = (field: string, value: string | false | undefined): string => {
+  if (value === false) {
+    return ''
+  }
+  const text = value ?? ''
+  if (field === 'author') {
+    return text
+      .split(/\r?\n/u)
+      .map((line) => escapeTex(line))
+      .join(String.raw`\\`)
+  }
+  return escapeTex(text)
+}
+
 export const fillTemplate = (template: string, metadata: Metadata, body: string): string => {
-  const values: Record<string, string> = Object.fromEntries([
-    // This trusted default is LaTeX; explicit metadata is always escaped.
+  const replacements: Record<string, string> = Object.fromEntries([
     ['date', String.raw`\today`],
-    ...Object.entries(metadata).map(([field, value]) => {
-      if (field === 'author') {
-        const lines = (value ?? '').split(/\r?\n/u).map((line) => escapeTex(line))
-        return [field, lines.join(String.raw`\\`)]
-      }
-      return [field, escapeTex(value ?? '')]
-    }),
+    ...Object.entries(metadata).map(([field, value]) => [field, renderMetadataValue(field, value)]),
     ['body', body],
   ])
 
@@ -21,9 +28,9 @@ export const fillTemplate = (template: string, metadata: Metadata, body: string)
 
   // A single replacement pass keeps inserted text from becoming a placeholder.
   return template.replaceAll(/\{\{(?<key>\w+)\}\}/gu, (_placeholder, key) => {
-    if (!Object.hasOwn(values, key)) {
+    if (!Object.hasOwn(replacements, key)) {
       throw new Error(`Missing metadata for template placeholder: ${key}`)
     }
-    return values[key]
+    return replacements[key]
   })
 }

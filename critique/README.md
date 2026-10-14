@@ -25,4 +25,4 @@ The [materials](materials/) and [sources](sources/) are not to be modified. Addi
 - [x] Compile an evidence list using the source PDFs
 - [x] Final essay
 - [x] Convert to LaTeX and compile
-- [ ] Final review
+- [x] Final review
